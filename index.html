@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <header class="top">
+        <div class="top-content limit-largura">
+            <img src="assets/img/logoDNC.png" alt="DNC">
+            <h1>ByeCar</h1>
+        </div>
+    </header>
+
+    <main class="limit-largura">
+        <section class="content-left">
+            <header>
+                <h1>Ter <span class="negrito">uma moto</span> por assinatura nunca foi tão fácil!</h1>
+            </header>
+            <img src="assets/img/imagemEsquerda.png" alt="">
+        </section>
+
+        <section class="content-right">
+            <header>
+                <h1>Conheça nossas <span>motos</span>!</h1>
+            </header>
+
+            <div class="boxComSetas">
+
+                <button class="itens-carousel-previus" onclick="show(-1)">
+                    <img src="assets/img/Vector (1).png" alt="" />
+                </button>
+
+                <div class="box_banners">
+                    <ul class="itens-carousel">
+                        <li class="item-card" id="card">
+                            <p>Scooter Elétrica Voltz EV1</p>
+                            <img src="assets/img/motoslider1.png" alt="">
+                            <p>A partir de</p>
+                            <p>R$ 619,90</p>
+                            <p>Plano de 30 meses</p>
+                        </li>
+
+                        <li class="item-card">
+                            <p>Honda CB 500X</p>
+                            <img src="assets/img/motoslider2.png" alt="">
+                            <p>A partir de</p>
+                            <p>R$ 619,90</p>
+                            <p>Plano de 30 meses</p>
+                        </li>
+                    </ul>
+
+
+
+                </div>
+
+                <button class="itens-carousel-previus" onclick="show(+1)">
+                    <img src="assets/img/Vector (2).png" alt="" />
+                </button>
+            </div>
+            <footer>
+                <button>Saiba mais</button>
+            </footer>
+
+        </section>
+
+    </main>
+
+<script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
